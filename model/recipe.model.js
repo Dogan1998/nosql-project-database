@@ -28,6 +28,6 @@ const recipe = new Recipe({
         { name: 'vlees', amount: 1000 },
         { name: 'korst', amount: 20}
     ]
-}) //.save();
+}).save();
 
 module.exports = Recipe;
